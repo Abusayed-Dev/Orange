@@ -1,0 +1,170 @@
+
+// ------------ Responsive CSS---------//
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+
+.custom-border-before::before {
+    left: 30px;
+    width: 94%;
+}
+.messege-area .custom-border-before::before {
+    left: 14px;
+    width: 97%;
+}
+.card-image strong {
+    width: 175px;font-size: 15px;
+}
+.byer-text {
+    width: 83%;
+    padding-right: 20px;
+}
+span.byer-date:after {
+    left: 34%;
+    width: 31%;;
+}
+
+
+
+
+
+
+
+}
+
+
+/* Extra small devices (phones, 768px and down) */
+@media only screen and (max-width: 768px) {
+
+.custom-border-before::before {
+    left: 11px;
+    width: 96%;
+}
+.messege-area .custom-border-before::before {
+    left: -15px;
+    width: 103%;
+}
+.left-section .col-lg-3, .left-section .col-xl-10 {
+    padding-right: 5px;
+}
+.middle-area {
+    margin-top: 40px;
+}
+
+.card-image {
+    width: 100%;
+    overflow: hidden;
+}
+
+.card-image img {
+    width: 15%;
+    float: left;
+}
+
+.card-image strong {
+    float: right;
+    width: 83%;
+    padding: 15px;
+}
+
+.byer-section {
+    margin-top: 50px;
+}
+.right-header-img {
+    width: 17%;
+}
+
+p.header-text {
+    width: 81%;
+    margin-top: 25px;
+}
+
+.right-header-img img {
+    width: 100%;
+}
+
+
+.right-header {
+    margin-bottom: 30px;
+}
+
+.byer-img {
+    width: 15%;
+}
+
+.byer-img img {
+    width: 100%;
+}
+
+.byer-text {
+    width: 81%;
+}
+span.byer-date:after {
+    left: 40%;
+    width: 19%;
+}
+
+.widget-newsletter button {
+    height: 45px;
+    font-size: 13px;
+}
+.widget-newsletter input {
+    height: 52px;
+    font-size: 13px;
+}
+.footer__widget--title {
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+.custom-border-before::before {
+    left: 18px;
+    width: 94%;
+}
+span.byer-date:after {
+    left: 38%;
+    width: 24%;
+}
+.widget-newsletter input {
+    height: 50px;
+    font-size: 12px;
+}
+.widget-newsletter button {
+    height: 41px;
+    font-size: 12px;padding: 0 10px;
+}
+.footer-area.pt-115.pb-50{
+	padding-top: 70px;
+	padding-bottom: 0;
+}
+
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+
+
+}
+
+
+

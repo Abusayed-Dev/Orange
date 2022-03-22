@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+body {
+    color: #373737 !important;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.accordion-body {
+    padding: 0; 
+}
+.information-form .nav-link {
+    padding: 20px 4px;
+    border: 1px solid #e0e0e0;
+}
+
+.information-acc .accordion-button {
+    padding: 20px 1.25rem;
+    border: 2px solid #e0e0e0;
+}
+
+.custom-card {
+    border: 2px solid #c4c4c4;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 30px;
+}
+
+.custom-card p {
+    line-height: 23px;
+}
+
+.card-image img {
+    width: 50px;
+}
+
+.card-image strong {
+    width: 290px;
+    float: right;
+}
+
+.card-image {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.middle-area .custom-card:nth-child(3), .middle-area .custom-card:nth-child(4), .middle-area .custom-card:nth-child(5) {
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+}
+.accordion-item:last-of-type .accordion-button.collapsed {
+    border-radius: 0;
+}
+
+.search-from input {
+    width: 100%;
+    padding: 6px 30px;
+    border-radius: 50px;
+}
+
+.search-from {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.search-from span {
+    position: absolute;
+    left: 12px;
+    top: 9px;
+}
+
+.messege-area {
+    padding: 30px 0;
+    position: relative;
+}
+
+.custom-border-before{position: relative;}
+.custom-border-before::before{
+    position: absolute;
+    left: 42px;
+    bottom: 0;
+    width: 96%;
+    background: #ddd;
+    height: 2px;
+    content: "";
+}
+.messege-area .custom-border-before::before {
+    left: 14px;
+    width: 100%;
+    bottom: -30px;
+}
+
+.orange-logo {
+    float: right;
+}
+
+.messege-area p {
+    margin-top: 12px;
+}
+
+.left-section .col-lg-3, .left-section .col-xl-10 {
+    padding: 0;
+}
+.left-section {
+    padding: 30px 0;
+}
+.right-header {
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.right-header-img {
+    width: 12%;
+    float: left;
+}
+
+p.header-text {
+    float: right;
+    width: 88%;
+    padding: 10px;
+    padding-top: 5px;
+    margin: 0;
+    line-height: 24px;
+    font-size: 17px;font-weight: 700;
+}
+
+p.header-text span {
+    display: block;
+    font-size: 16px;font-weight: normal;
+}
+
+.right-header-img img {
+    width: 60px;
+}
+
+.border-byer {
+    border: 2px solid #000;
+}
+
+span.byer-date {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+
+.border-date {
+    border-bottom: 2px solid #c0c0c0;
+    margin-bottom: 20px;
+    margin-top: -11px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+span.byer-date:after {
+    position: absolute;
+    left: 38%;
+    height: 100%;
+    width: 24%;
+    content: "";
+    background: #fff;
+    z-index: -1;
+}
+
+.byer-information {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.byer-img {
+    float: left;
+    width: 12%;
+}
+
+.byer-text {
+    float: right;
+    width: 86%;
+    padding-right: 70px;
+}
+
+.border-byer {
+    padding: 15px;
+}
+
+.byer-text h5 {
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+.byer-text h5 .dot {position: relative;top: -4px;font-size: 20px;font-weight: 700;
+padding: 5px;}
+
+.byer-text p {
+    line-height: 24px;
+}
+
+.message-area textarea {
+    height: 70px;
+    width: 78%;
+    float: left;
+    border-color: #000;
+    border: 2px solid;
+    resize: none;
+    padding: 20px 15px;
+}
+
+.message-area {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.send-btn {
+    width: 20%;
+    float: right;
+    background: #000;
+    color: #fff;margin-top: 12px;
+    display: inline-block;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 2px;
+}
+
+.header-right ul li a {
+    font-size: 23px;
+    margin-left: 15px;
+}
+.main-menu ul li {
+    margin: 0px 10px;
+}
